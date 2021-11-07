@@ -3,7 +3,7 @@ animal=['alligator','lion','panda','camel','pig','dog','cat','horse','sheep','he
 word=random.choice(animal)
 n=7
 str1=""
-print("word length is :",len(word))
+print("Let's bgin th hanhman game \n .Guess the animal name \n word length is :",len(word))
 while(n>0):
     alp=input("enter a letter")
     alp=alp.lower()
@@ -12,7 +12,7 @@ while(n>0):
         for i in range(len(word)):
             if alp==word[i]:
                 print(alp," is present at ",i+1)
-        str1=str1+alp
+                str1=str1+alp
     
     else:
         n=n-1
@@ -22,3 +22,4 @@ while(n>0):
         break;
         
 print(word)
+
